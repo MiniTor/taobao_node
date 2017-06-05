@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "SimHei";
+  color: #333;
+}
+.container {
+  width: 1211px;
+  margin: 0 auto;
+}
+.container:before {
+  content: ' ';
+  display: table;
+}
+.container:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+.logo,
+.welcome {
+  float: left;
+}
+.main {
+  position: relative;
+}
+.bg-video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.box {
+  width: 500px;
+  min-height: 400px;
+  background: rgba(255,255,255,.6);
+  margin: 100px auto;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #aaa;
+}
